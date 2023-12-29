@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply px-4 py-2 rounded-md border hover:bg-white/25;
+}
+
+.btn.active {
+  @apply bg-white/50;
+}
+
+code {
+  @apply bg-white/20 rounded-md px-1 py-0.5;
+}

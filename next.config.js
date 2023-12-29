@@ -1,6 +1,17 @@
+const { redirect } = require("next/dist/server/api-utils");
+
 /** @type {import("next").NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
+	reactStrictMode: true,
+	async redirects() {
+		return [
+			{
+				source: "/",
+				destination: "/route",
+				permanent: true,
+			},
+		];
+	},
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
