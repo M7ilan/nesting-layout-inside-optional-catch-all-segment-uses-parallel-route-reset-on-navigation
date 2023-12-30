@@ -1,5 +1,4 @@
-import Link from "next/link";
-import Description from "../../components/description";
+import Description from "@/components/description";
 
 type Props = {
 	Title: React.ReactNode;
