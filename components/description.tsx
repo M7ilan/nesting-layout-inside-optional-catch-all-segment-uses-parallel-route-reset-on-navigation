@@ -4,7 +4,7 @@ export default function Description() {
 	return (
 		<div className="my-8">
 			<Link href="https://github.com/vercel/next.js/issues/60037" className="text-blue-500">
-				Issue Description
+				Issue Description #60037
 			</Link>
 			<div className="text-xs italic">
 				<div>
